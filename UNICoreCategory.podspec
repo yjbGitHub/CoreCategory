@@ -2,11 +2,12 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "CoreCategory"
-  s.version      = "1.0.0"
+  s.name         = "UNICoreCategory"
+  s.version      = "1.1.1"
   s.license  = 'MIT'
-  s.summary      = "收集的一套工具类"
-  s.ios.deployment_target = '7.0'
+  s.summary      = "A categorys used on ios"
+  s.platform     = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
 
   s.homepage     = "https://github.com/yjbGitHub/CoreCategory"
   #s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/yjbGitHub/CoreCategory.git", :tag => s.version , :submodules => true }
 
-s.source_files  =  "Foundation/*/*.{h,m}"
+  s.source_files  =  "Foundation/*/*.{h,m}"
 
   s.requires_arc = true
 
